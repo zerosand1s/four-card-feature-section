@@ -1,0 +1,83 @@
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.header > h1:nth-child(1) {
+  margin: 0;
+  font-weight: lighter;
+}
+
+.header > h1:nth-child(2) {
+  margin: 0;
+}
+
+.cards {
+	width: 100%;
+	height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+	min-width: 0;
+	overflow: hidden;
+  width: 300px;
+  height: 250px;
+	margin: 15px;
+	max-width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 3px 5px 5px lightgray;
+}
+
+.card h2 {
+  font-size: 16px;
+}
+
+.card img {
+  position: relative;
+  float: right;
+  top: 60px;
+}
+
+.cards-column-one {
+  min-width: 0;
+}
+
+.cards-column-two {
+  min-width: 0;
+}
+
+.cards-column-three {
+  min-width: 0;
+}
+
+.cards-column-one .card {
+  border-top: 3px solid hsl(229, 6%, 66%);
+}
+
+.cards-column-two .card:nth-child(1) {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.cards-column-two .card {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.cards-column-three .card {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
